@@ -17,8 +17,18 @@ public class Main {
         calc_mul.displayResult("×");
 
         Calculator calc_div =  new Calculator();
-        calc_div.setNumbers(10, 2);
+        calc_div.setNumbers(5, 3);
         calc_div.divide();
         calc_div.displayResult("÷");
+
+        AdvancedCalculator calc_M = new AdvancedCalculator();
+        calc_M.setNumbers(10, 2);
+        calc_M.multiply();
+        calc_M.displayResult("*");
+
+        AdvancedCalculator calc_D = new AdvancedCalculator();
+        calc_M.setNumbers(10, 2);
+        calc_M.divide();
+        calc_M.displayResult("/");
     }
 }
